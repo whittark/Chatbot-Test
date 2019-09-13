@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Chat Bot Prototype</title>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<script src="https://www.gstatic.com/firebasejs/4.1.5/firebase.js"></script>
+</head>
+<body class="row">
+	<div class="col-xs-1">
+		<h1 class="vericaltext"></h1>
+	</div>
+	<div class="container col-xs-10">
+	<!--div class="row">
+		<div id="player1" class="player col-xs-12 col-md-6">
+			<div class="panel"><h3 class="player-title">Player:</h3></div>
+			<div class="form-group">
+				<div class="input-group">
+					<input type="text" class="form-control name" placeholder="Enter your name to start:" />		
+					<span class="input-group-btn">
+		    		    <button class="btn btn-default ready" data-player="player1" type="button">Start!</button>
+					</span>
+				</div>
+			</div>
+			<div class="panel panel-default moves">
+				<div class="panel-heading">
+					<h1 class="move-text small">Join the game to play.</h1>
+				</div>
+				<div class="panel-body">
+					<button class="move btn btn-primary" data-move="rock" disabled="true">Rock</button>
+					<button class="move btn btn-default" data-move="paper" disabled="true">Paper</button>
+					<button class="move btn btn-info" data-move="scissors" disabled="true">Scissors</button>			
+				</div>
+				<div class="panel-footer">
+				<table class="table table-condensed">
+		  			<tr><thead>
+		  				<th>Wins</th>
+		  				<th>Losses</th>
+		  				<th>Ties</th>
+		  			</thead></tr>
+		  			<tr>
+		  				<td><span class="win label label-success">0</span></td>
+		  				<td><span class="loss label label-danger">0</span></td>
+		  				<td><span class="tie label label-default">0</span></td>
+		  			</tr>
+				</table>
+				</div>
+			</div>
+		</div>
+		<div id="player2" class="player col-xs-12 col-md-6">
+			<div class="panel"><h3 class="player-title">Player:</h3></div>
+			<div class="form-group">
+				<div class="input-group">
+					<input type="text" class="form-control name" placeholder="Enter your name to start:" />		
+					<span class="input-group-btn">
+		    		    <button class="btn btn-default ready" data-player="player2" type="button">Start!</button>
+					</span>
+				</div>
+			</div>
+			<div class="panel panel-default moves">
+				<div class="panel-heading">
+					<h1 class="move-text small">Join the game to play.</h1>
+				</div>
+				<div class="panel-body">
+					<button class="move btn btn-primary" data-move="rock" disabled="true">Rock</button>
+					<button class="move btn btn-default" data-move="paper" disabled="true">Paper</button>
+					<button class="move btn btn-info" data-move="scissors" disabled="true">Scissors</button>						
+				</div>
+				<div class="panel-footer">
+				<table class="table table-condensed">
+		  			<tr><thead>
+		  				<th>Wins</th>
+		  				<th>Losses</th>
+		  				<th>Ties</th>
+		  			</thead></tr>
+		  			<tr>
+		  				<td><span class="win label label-success">0</span></td>
+		  				<td><span class="loss label label-danger">0</span></td>
+		  				<td><span class="tie label label-default">0</span></td>
+		  			</tr>
+				</table>
+				</div>
+			</div>
+
+		</div-->
+	<!--/div> <!-- End of game row -->
+	<!--div class="row"><div class="columns col-xs-12">
+		<div class="alert alert-info">Result: <span class="result"></span></div>
+	</div></div><!-- End of result row -->
+	<div class="row"><div class="columns col-xs-12">
+	            <div class="header">
+	            	<h4 >Help and support chat</h4>
+	        	</div>
+	        <div class="messages">
+	            <ul>
+
+	            </ul>
+	        </div>
+	        <div class="form">
+	             <form>
+	                <div class="input-group">
+	                    <input type="text" name="message" id='message-input' class="form-control">
+	                 	<span class="input-group-btn">
+				        	<button id='send' class="btn btn-default" type="button">Send</button>
+				      	</span>
+	                </div>
+	             </form>
+	        </div>
+	</div></div><!-- End of chat row -->
+	</div>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>

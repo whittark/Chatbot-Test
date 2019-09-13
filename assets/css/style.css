@@ -1,0 +1,132 @@
+.messages {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1px;
+      -ms-flex: 1 1px;
+          flex: 1 1px;
+  background: #F1F5F8;
+  max-height:500px;
+  overflow-y: scroll;
+  margin-top: 5px;
+}
+.messages ul {
+  list-style: none;
+  margin: 0;
+  padding: 36px;
+}
+.messages ul::after {
+  content: " ";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+  font-size: 0;
+}
+.messages li {
+  float: left;
+  clear: both;
+  line-height: 1.4em;
+  max-width: 224px;
+  margin: 12px;
+  padding: 0.7em 16px;
+  border-radius: 18px;
+  font-family: sans-serif;
+  color: grey;
+  background: #d6e9c6;
+}
+.messages .li-left {
+  border-bottom-left-radius: 2px;
+}
+.messages .li-right {
+  float: right;
+  border-bottom-right-radius: 2px;
+}
+.messages .li-anonymous {
+	background:gainsboro;
+  border-bottom-left-radius: 2px;
+}
+.form {
+  background: gainsboro;
+}
+.li-username {
+  font-size: 12px;
+  width: 100%;
+  float: right;
+  text-align: right;
+}
+.header {
+  width: 100%;
+  line-height: 40px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  color: white;
+  background-color: grey;
+  padding-left: 20px;
+}
+.form-inner {
+  height: 50px;
+  width: calc(100% - 12px * 2);
+  padding: 12px;
+  border-radius: 2px;
+  background: #F1F5F8;
+}
+.form-inner button {
+  float: right;
+  height: 100%;
+  width: 60px;
+  padding: 10px;
+  border: 0;
+  border-radius: 0 2px 2px 0;
+  font: 30px/60px sans-serif;
+  color: whitesmoke;
+  background: skyblue;
+  cursor: pointer;
+}
+.form{
+	margin-bottom: 50px;
+}
+.panel-heading{
+	padding: 5px;
+}
+.panel-footer{
+	padding: 0px;
+}
+.panel-body{
+	text-align: center;
+}
+h1{
+	padding: 0 0 0 20px;
+	margin: 0;
+	line-height: 1rem;
+}
+.alert{
+	padding: 5px 5px 5px 20px;
+	color: grey;
+	background-color: gainsboro;
+	border-color: grey;
+}
+h3{
+	margin-top: 1px;
+    margin-bottom: 1px;
+    padding-left: 0px;
+    color: grey;
+}
+.input-group {
+    padding: 15px;
+}
+.table td, .table th {
+   text-align: center;   
+}
+.table{
+    margin-bottom: 0px;
+}
+.vericaltext{
+transform: rotate(90deg);
+  transform-origin: left top 0;
+  float: left;
+    font-weight: bolder;
+    width: 1000px;
+    margin-left: 15px;
+}
+.container{
+	padding-top: 10px;
+}
